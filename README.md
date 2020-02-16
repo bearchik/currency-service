@@ -3,7 +3,7 @@ Service that get currency from cbr.ru and give json
 
 ## Docker
 You need run **docker pull bearchik/currency**
-and **docker run -d --rm -it currency-service**
+and **docker run -d --rm -it bearchik/currency**
 
 ## Compile
 Run command **mvn compile**

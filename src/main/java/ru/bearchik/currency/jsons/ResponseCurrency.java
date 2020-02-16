@@ -46,6 +46,12 @@ public class ResponseCurrency {
             return;
 
         }
+
+        if ((valCurs.getValutes() == null)) {
+            code = "Date is wrong or nothing found for this date.";
+            return;
+        }
+
         for (int i = 0; i < valCurs.getValutes().size(); i++) {
             if (valCurs.getValutes().get(i).getCharCode().equals(currencyname.toUpperCase())) {
                 this.code = currencyname.toUpperCase();

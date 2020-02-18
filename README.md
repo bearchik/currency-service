@@ -21,9 +21,9 @@ Or You need run command **mvn package** after this you need run **java -jar ./ta
 After this you can connect in any browser to url: http://127.0.0.1/currency/api/rate/
 
 ## Example
-http://127.0.0.1:8080/currency/api/rate/USD - get last USD(USA Dollar) cource
+http://127.0.0.1/currency/api/rate/USD - get last USD(USA Dollar) cource
 
-http://127.0.0.1:8080/currency/api/rate/USD/2015-09-24 - get cource USD(USA Dollar) for date 24.09.2015
+http://127.0.0.1/currency/api/rate/USD/2015-09-24 - get cource USD(USA Dollar) for date 24.09.2015
 
 Output JSON:
 ```json

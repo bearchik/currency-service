@@ -15,7 +15,7 @@ public class CurrencyController {
 
     @GetMapping
     public String index() {
-        return "passed";
+        return "Test passed. App v1";
     }
 
     @GetMapping("{currencyname}")

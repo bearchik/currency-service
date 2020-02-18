@@ -11,7 +11,7 @@ class CurrencyControllerTest extends Assert {
 
     @Test
     void index() {
-        assertEquals(currencyController.index(), "passed");
+        assertEquals(currencyController.index(), "Test passed. App v1");
     }
 
 }

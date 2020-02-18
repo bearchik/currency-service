@@ -2,7 +2,7 @@
 
 . checkroot.sh
 
-echo "This script update \"currency\" app to version2"
+echo "This script update \"currency\" app to version 2."
 kubectl set image deployments/currency-v1 currency=bearchik/currency:v2
 kubectl rollout status deployments/currency-v1
 
